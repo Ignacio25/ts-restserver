@@ -21,7 +21,7 @@ export const login = async( req: Request, res: Response) => {
             })
         }
 
-        return res.json(usuario['nombre'])
+        return res.json(usuario);
 
         //Si usuario esta activo en la base
         // if ( !usuario.estado) {
